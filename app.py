@@ -74,7 +74,7 @@ def ask_groq(context, question):
     }
 
     payload = {
-        "model": "openai/gpt-oss-20b",,
+        "model": "openai/gpt-oss-20b",
         "messages": [
             {
                 "role": "user",
